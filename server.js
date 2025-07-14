@@ -3,6 +3,7 @@ const path = require('path');
 const { menuRouter, menuApiRouter } = require('./routes/menu.js');
 const { contactRouter, contactApiRouter } = require('./routes/contact.js');
 const thanksRouter = require('./routes/thanks.js');
+const apiRouter = require('./routes/api.js');
 
 const app = express();
 const PORT = 3000;
@@ -18,6 +19,8 @@ app.use(contactRouter);
 app.use(contactApiRouter);
 
 app.use(thanksRouter);
+
+app.use(apiRouter);
 
 app.use((req, res, next) => {
     res.sendFile(path.join(__dirname, './views/404.html'));

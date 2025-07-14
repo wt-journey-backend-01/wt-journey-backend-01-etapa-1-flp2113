@@ -1,1 +1,1 @@
-{"counter":0,"contact":[{"id":0,"name":"FELIPE GUERZONI","email":"testando@gmail.com","subject":"Testando","message":"Testando a api! :)"}]}
+{"counter":2,"contact":[{"id":0,"name":"FELIPE GUERZONI","email":"testando@gmail.com","subject":"Testando","message":"Testando a api! :)"},{"id":1,"name":"felipe","email":"test@gmail.com","subject":"Testando novamente","message":"ola "},{"id":2,"name":"testador","email":"test@gmail.com","subject":"Testando novamente","message":"ola tudo bem"}]}
